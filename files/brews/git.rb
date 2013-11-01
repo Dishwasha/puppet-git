@@ -12,9 +12,10 @@ end
 
 class Git < Formula
   homepage 'http://git-scm.com'
-  head 'https://github.com/git/git.git'
+  url 'http://github.com/git/git/archive/v1.8.5-rc0.tar.gz'
+  sha1 '7f5612d110338e994713714254bddda5a6509549'
 
-  version 'head-boxen1'
+  version '1.8.5-rc0-boxen1'
 
   depends_on 'pcre' => :optional
   depends_on 'gettext' => :optional
