@@ -12,11 +12,9 @@ end
 
 class Git < Formula
   homepage 'http://git-scm.com'
-  url 'http://git-core.googlecode.com/files/git-1.8.4.tar.gz'
-  sha1 '2a361a2d185b8bc604f7f2ce2f502d0dea9d3279'
   head 'https://github.com/git/git.git'
 
-  version '1.8.4-boxen1'
+  version 'head-boxen1'
 
   depends_on 'pcre' => :optional
   depends_on 'gettext' => :optional
